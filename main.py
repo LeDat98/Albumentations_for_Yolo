@@ -66,7 +66,7 @@ def main(images_dir, labels_dir):
             process_image_and_labels(image_path, label_path, output_image_path, output_label_path)
 
 if __name__ == "__main__":
-    images_dir = "/home/leducdat/deverlopment/Albumentations/images"
-    labels_dir = "/home/leducdat/deverlopment/Albumentations/labels"
+    images_dir = "images"
+    labels_dir = "labels"
 
     main(images_dir, labels_dir)
