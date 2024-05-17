@@ -9,7 +9,7 @@ transform = A.Compose([
 ])
 
 # Read an image with OpenCV and convert it to the RGB colorspace
-image = cv2.imread("image2124.jpg")
+image = cv2.imread("inputimage.jpg")
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
 # Augment an image
