@@ -89,37 +89,16 @@ def main(images_dir, labels_dir, output_images_dir, output_labels_dir, class_nam
             process_image_and_labels(image_path, label_path, output_image_path, output_label_path, class_names)
 
 if __name__ == "__main__":
-    images_dir = "/home/leducdat/deverlopment/Albumentations/images"
-    labels_dir = "/home/leducdat/deverlopment/Albumentations/labels"
-    output_images_dir = "/home/leducdat/deverlopment/Albumentations/output_images"
-    output_labels_dir = "/home/leducdat/deverlopment/Albumentations/output_labels"
+    images_dir = "images"
+    labels_dir = "labels"
+    output_images_dir = "output_images"
+    output_labels_dir = "output_labels"
     
-    # Nếu bạn có danh sách tên các lớp, bạn có thể khai báo nó ở đây. Ví dụ:
+    # If you have a list of class names, you can declare it here or pass it the value none
     class_names = [
-    "babycar",
-    "bag",
-    "bicycle",
-    "box",
-    "cane",
-    "crutch",
-    "falldown",
-    "fighting",
-    "guide_dog",
-    "orther",
-    "running",
-    "sitting",
-    "skateboard",
-    "smoking",
-    "standing",
-    "suitcase",
-    "umbrella",
-    "walking",
-    "weapon",
-    "wheel_walker",
-    "wheelchair",
-    "white_cane"
+        'label1',
+        'label2',
+        ...
     ]
-
-    # class_names = None
 
     main(images_dir, labels_dir, output_images_dir, output_labels_dir, class_names)
