@@ -1,5 +1,5 @@
-# Albumentations_for_Yolo
-# Image and Label Processing
+
+# Image and Label Processing by Albumentations for Yolo format
 
 ## Instructions
 
